@@ -1,4 +1,4 @@
-package Composition;
+package Intermediate.Composition;
 
 public class Resolution {
 
