@@ -1,8 +1,16 @@
 package Basics;
 
+import java.util.Arrays;
+
 public class Main {
 
     public static void main(String[] args) {
+
+        //arrays
+        int[] myIntegers = Array.getIntegers(5);
+        System.out.println(Arrays.toString(myIntegers));
+        System.out.println("Array Average: " + Array.getAverage(myIntegers));
+
 
         // High Score Positions
         byte highScorePosition = BasicFunctions.calculateHighScorePosition(1500);
