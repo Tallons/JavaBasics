@@ -45,6 +45,9 @@ public class Main {
 
         Unary.unary(25);
 
+        String[] careers = {"Nurse", "Engineer", "Teacher", "Contractor"};
+        Loops.loops(5, careers);
+
     }
 
 
