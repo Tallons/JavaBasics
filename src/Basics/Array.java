@@ -23,4 +23,13 @@ public class Array {
         }
         return (double) sum / (double) array.length;
     }
+
+    public static int[] resizeArray(int [] array) {
+        int [] original = array;
+        array = new int[12];
+        for (int i = 0; i < original.length; i++){
+            array[i] = original[i];
+        }
+        return array;
+    }
 }
