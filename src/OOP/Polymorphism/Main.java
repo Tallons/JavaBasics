@@ -1,4 +1,4 @@
-package Intermediate.Polymorphism;
+package OOP.Polymorphism;
 
 class Movie {
     private String name;

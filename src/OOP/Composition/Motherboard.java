@@ -1,4 +1,4 @@
-package Intermediate.Composition;
+package OOP.Composition;
 
 public class Motherboard {
     private String model;

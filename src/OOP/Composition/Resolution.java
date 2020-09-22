@@ -1,15 +1,13 @@
-package Intermediate.Composition;
+package OOP.Composition;
 
-public class Dimensions {
+public class Resolution {
 
     private int width;
     private int height;
-    private int depth;
 
-    public Dimensions(int width, int height, int depth) {
+    public Resolution(int width, int height) {
         this.width = width;
         this.height = height;
-        this.depth = depth;
     }
 
     public int getWidth() {

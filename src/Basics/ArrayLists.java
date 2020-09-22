@@ -2,8 +2,8 @@ package Basics;
 
 import java.util.ArrayList;
 
-public class Lists {
-    private ArrayList <String> groceryList = new ArrayList<String>();
+public class ArrayLists { // This is a collection - see CoreAPI > Utilities > CollectionTypes
+    private ArrayList<String> groceryList = new ArrayList<>();
 
     public void addGroceryItem(String item) {
         groceryList.add(item);

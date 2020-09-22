@@ -1,4 +1,4 @@
-package Intermediate.Encapsulation;
+package OOP.Encapsulation;
 
 public class EnhancedPlayer {
 
