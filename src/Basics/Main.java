@@ -2,6 +2,9 @@ package Basics;
 
 import Basics.Operators.*;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -46,7 +49,14 @@ public class Main {
         Unary.unary(25);
 
         String[] careers = {"Nurse", "Engineer", "Teacher", "Contractor"};
-        Loops.loops(5, careers);
+        List<String> students = new ArrayList<>();
+        students.add("Todd");
+        students.add("Chad");
+        students.add("Susan");
+        students.add("Liz");
+        Loops.loops(5, careers, students);
+
+        Inputs.inputs();
 
     }
 
